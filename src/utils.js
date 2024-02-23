@@ -368,7 +368,7 @@ export class Utils {
 		let size = width * height;
 		let data = new Uint8Array(3 * size);
 
-		let chroma = [1, 1.5, 1.7];
+		let chroma = [4.0, 6.75, 7.5];
 		let max = gauss(0, 0);
 
 		for (let x = 0; x < width; x++) {
